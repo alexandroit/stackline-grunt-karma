@@ -4,13 +4,13 @@
 
 [![npm version](https://img.shields.io/npm/v/@stackline/grunt-karma.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/grunt-karma)
 [![license](https://img.shields.io/npm/l/@stackline/grunt-karma.svg?style=flat-square)](https://github.com/alexandroit/stackline-grunt-karma)
-[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-grunt-karma-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-grunt-karma)
+[![GitHub repository](https://img.shields.io/badge/GitHub-repository-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-grunt-karma)
 [![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/grunt-karma/)
 [![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
 
 **[Documentation](https://alexandro.net/docs/vanilla/grunt-karma/)** | **[npm](https://www.npmjs.com/package/@stackline/grunt-karma)** | **[Issues](https://github.com/alexandroit/stackline-grunt-karma/issues)** | **[Repository](https://github.com/alexandroit/stackline-grunt-karma)**
 
-**Current package version:** `1.0.1`
+**Current package version:** `1.0.2`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/grunt-karma@1.0.1` |
+| Package | `@stackline/grunt-karma@1.0.2` |
 | API target | `grunt-karma@4.0.2` |
 | Supported Node.js | `See supported framework requirements` |
 | License | `MIT` |
