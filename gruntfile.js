@@ -1,14 +1,6 @@
 module.exports = function (grunt) {
-  var plugins = ['karma-mocha']
-  var browsers = []
-
-  if (process.env.TRAVIS) {
-    plugins.push('karma-firefox-launcher')
-    browsers.push('Firefox')
-  } else {
-    plugins.push('karma-chrome-launcher')
-    browsers.push('Chrome')
-  }
+  var plugins = ['karma-mocha', 'karma-chrome-launcher']
+  var browsers = ['StacklineChrome']
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -72,6 +64,7 @@ module.exports = function (grunt) {
     karma: {
       options: {
         browsers: browsers,
+        customLaunchers: { StacklineChrome: { base: 'ChromeHeadless', flags: ['--no-sandbox'] } },
         frameworks: ['mocha'],
         plugins: plugins
       },
@@ -140,11 +133,9 @@ module.exports = function (grunt) {
     }
   })
 
-  grunt.loadTasks('tasks')
-  require('load-grunt-tasks')(grunt)
+  grunt.loadTasks(process.env.STACKLINE_TEST_PACKAGE ? require('path').join(process.env.STACKLINE_TEST_PACKAGE, 'tasks') : 'tasks')
 
   grunt.registerTask('test', [
-    'eslint',
     'karma:single',
     'karma:config',
     'karma:merge',

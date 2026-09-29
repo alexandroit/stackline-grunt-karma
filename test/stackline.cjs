@@ -1,0 +1,1 @@
+const cp=require('node:child_process');process.env.CHROME_BIN ||= '/usr/bin/google-chrome';cp.execFileSync(process.execPath,[require.resolve('grunt-cli/bin/grunt'),'test'],{stdio:'inherit',env:process.env});

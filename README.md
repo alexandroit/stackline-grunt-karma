@@ -1,3 +1,19 @@
+# @stackline/grunt-karma
+
+Independent maintenance fork of `grunt-karma@4.0.2`. Original API, module format, runtime dependency ranges, and supported Node.js engines are preserved.
+
+```sh
+npm install @stackline/grunt-karma
+# Preserve existing imports with an npm alias:
+npm install grunt-karma@npm:@stackline/grunt-karma@1.0.0
+```
+
+See [UPSTREAM.md](UPSTREAM.md) for the exact source and issue review, and [CHANGELOG.md](CHANGELOG.md) for focused maintenance changes. Development and release tooling runs on Node.js 24; that does not change the library runtime requirement.
+
+Maintained by [Stackline](https://alexandro.net/). [Issues](https://github.com/alexandroit/stackline-grunt-karma/issues) · [npm](https://www.npmjs.com/package/@stackline/grunt-karma).
+
+## Upstream documentation
+
 # grunt-karma
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/karma-runner/grunt-karma)

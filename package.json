@@ -1,11 +1,11 @@
 {
-  "name": "grunt-karma",
-  "version": "3.0.2",
+  "name": "@stackline/grunt-karma",
+  "version": "1.0.0",
   "description": "grunt plugin for karma test runner",
   "main": "tasks/grunt-karma.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/karma-runner/grunt-karma.git"
+    "url": "git+https://github.com/alexandroit/stackline-grunt-karma.git"
   },
   "keywords": [
     "gruntplugin",
@@ -14,10 +14,13 @@
     "test",
     "unit",
     "runner",
-    "TDD"
+    "TDD",
+    "stackline",
+    "maintenance-fork"
   ],
   "scripts": {
-    "test": "grunt"
+    "test": "node test/stackline.cjs",
+    "test:package": "node scripts/test-package.mjs"
   },
   "author": "Dave Geddes",
   "license": "MIT",
@@ -26,34 +29,13 @@
     "lodash": "^4.17.10"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/travis-cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "@semantic-release/changelog": "5.0.1",
-    "@semantic-release/git": "9.0.0",
-    "@semantic-release/npm": "7.0.5",
-    "eslint": "^5.4.0",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-promise": "^4.0.0",
-    "eslint-plugin-standard": "^3.1.0",
-    "expect.js": "^0.3.1",
-    "grunt": "^1.1.0",
-    "grunt-bump": "0.8.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-conventional-changelog": "^6.1.0",
-    "grunt-conventional-github-releaser": "^1.0.0",
-    "grunt-eslint": "^21.0.0",
-    "grunt-npm": "0.0.2",
-    "husky": "^4.2.3",
-    "karma": "^5.0.1",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-firefox-launcher": "^1.0.0",
-    "karma-mocha": "1.x || ^0.2.0",
-    "load-grunt-tasks": "^3.2.0",
-    "mocha": "^3.4.2",
-    "semantic-release": "17.0.4"
+    "grunt": "1.6.3",
+    "grunt-cli": "1.5.0",
+    "karma": "6.4.4",
+    "karma-chrome-launcher": "3.2.0",
+    "karma-mocha": "2.0.1",
+    "mocha": "12.0.2",
+    "expect.js": "0.3.1"
   },
   "peerDependencies": {
     "grunt": ">=0.4.x",
@@ -74,7 +56,7 @@
     "Timo Tijhof <krinklemail@gmail.com>",
     "johnjbarton <johnjbarton@johnjbarton.com>",
     "Julian Motz <me@julianmotz.com>",
-    "Michał Gołębiowski-Owczarek <m.goleb@gmail.com>",
+    "Micha\u0142 Go\u0142\u0119biowski-Owczarek <m.goleb@gmail.com>",
     "XhmikosR <xhmikosr@gmail.com>",
     "Mark Ethan Trostler <mark@zzo.com>",
     "dsuckau <denis.suckau@concepts-and-training.de>",
@@ -115,5 +97,24 @@
     "Christoph Kraemer <chr.kraemer@sap.com>",
     "Daniel Herman <daniel.c.herman@gmail.com>",
     "Eddie Monge <eddie@eddiemonge.com>"
-  ]
+  ],
+  "files": [
+    "tasks",
+    "lib",
+    "LICENSE*",
+    "license*",
+    "NOTICE",
+    "UPSTREAM.md",
+    "CHANGELOG.md",
+    "README.md",
+    "readme.md"
+  ],
+  "bugs": {
+    "url": "https://github.com/alexandroit/stackline-grunt-karma/issues"
+  },
+  "homepage": "https://github.com/alexandroit/stackline-grunt-karma#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
 }
