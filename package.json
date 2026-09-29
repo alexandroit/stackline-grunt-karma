@@ -1,6 +1,6 @@
 {
   "name": "@stackline/grunt-karma",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "grunt plugin for karma test runner",
   "main": "tasks/grunt-karma.js",
   "repository": {
@@ -8,14 +8,18 @@
     "url": "git+https://github.com/alexandroit/stackline-grunt-karma.git"
   },
   "keywords": [
+    "stackline",
+    "npm-package",
+    "grunt-karma",
+    "grunt-plugin",
+    "karma-plugin",
     "gruntplugin",
     "karma",
     "grunt",
     "test",
     "unit",
     "runner",
-    "TDD",
-    "stackline",
+    "tdd",
     "maintenance-fork"
   ],
   "scripts": {
@@ -56,7 +60,7 @@
     "Timo Tijhof <krinklemail@gmail.com>",
     "johnjbarton <johnjbarton@johnjbarton.com>",
     "Julian Motz <me@julianmotz.com>",
-    "Micha\u0142 Go\u0142\u0119biowski-Owczarek <m.goleb@gmail.com>",
+    "Michał Gołębiowski-Owczarek <m.goleb@gmail.com>",
     "XhmikosR <xhmikosr@gmail.com>",
     "Mark Ethan Trostler <mark@zzo.com>",
     "dsuckau <denis.suckau@concepts-and-training.de>",
@@ -112,7 +116,7 @@
   "bugs": {
     "url": "https://github.com/alexandroit/stackline-grunt-karma/issues"
   },
-  "homepage": "https://github.com/alexandroit/stackline-grunt-karma#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/grunt-karma/",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
