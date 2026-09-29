@@ -1,0 +1,31 @@
+{
+  "repository": "alexandroit/stackline-grunt-karma",
+  "packages": [
+    {
+      "name": "@stackline/grunt-karma",
+      "path": "README.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "grunt-karma",
+        "grunt-plugin",
+        "karma-plugin",
+        "gruntplugin",
+        "karma",
+        "grunt",
+        "test",
+        "unit",
+        "runner",
+        "tdd",
+        "maintenance-fork"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/grunt-karma/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/grunt-karma/-/grunt-karma-1.0.0.tgz",
+      "baselineIntegrity": "sha512-FHmgt5aNX39F8PWMs2bWr+rbamdiFc0seCHkcex1UTOkGehiAb0X6hJiqRZEiuKDUo+L2SeLpriFabajgqFDPQ==",
+      "expectedSha512": "4351eca41aa48695306030174f7b483be8a9b2cb16f72e1e85f0f74bf71c10d20f3d2b7ac5d077f0ef8078535c49241be45def6fd00ae6f89c1a91110c3f13a9",
+      "tag": "docs-stackline-grunt-karma-v1.0.1"
+    }
+  ]
+}
